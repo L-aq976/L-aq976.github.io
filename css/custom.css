@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=ZCOOL+KuaiLe&display=swap');
+
+
+/* 调整头像大小为原始尺寸的80% */
+.avatar img {
+  width: 20% !important;
+  height: auto !important;
+  margin: 0 auto; /* 保持居中显示 */
+}
+
+/* 一半淡金一半白背景 */
+body {
+  /* 将左侧颜色改为C30M20Y20对应的RGB值 */
+  /* 更平缓的渐变（增加中间过渡色） */
+  background: linear-gradient(to right, #ffffff, #ffff99, #ffff66) !important;
+}
+/* About页面渐变背景 */
+section.container.page {
+  background: linear-gradient(to bottom, rgb(255, 255, 230), rgb(255, 255, 128)) !important;
+  min-height: 80h; /* 确保渐变覆盖整个视口高度 */
+}
+/* 调整标题字体大小 */
+.navigation-title {
+    font-family: 'ZCOOL KuaiLe', cursive !important;
+    font-size: 2.2rem !important;
+    color: #000000 !important; /* 设置字体颜色为ffffcc */
+    text-transform: capitalize !important; /* 取消全部大写 */
+}
+.about-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px; /* 增大方框之间的距离（原为20px） */
+    max-width: 2000px; /* 增加容器宽度（原为800px） */
+    margin: 40px auto;
+    justify-items: center;
+    align-items: center;
+}
+
+.about-box {
+    border: 1px solid transparent !important;
+    /* border: 1px solid #3f250748; */
+    padding: 20px;
+    width: 100%;
+    max-width: 600px; /* 增加方框长度（原为350px） */
+    height: 250px; /* 保持高度不变 */
+    box-sizing: border-box;
+}
+.box-title {
+  color: #000000 !important; /* 字体颜色（ffffcc需加#前缀） */
+  font-family: 'ZCOOL KuaiLe', cursive !important;
+  font-size: 3rem !important; /* 可选：调整字体大小 */
+  font-weight: bold !important;
+  text-align: center !important;
+}
+.local-time {
+  color: #000000;
+  font-size: 2rem;
+  margin-top: 3rem;
+  text-align: left;
+  padding-left: 5rem;
+  border-left: 20px solid #ffff66;
+  font-family: 'ZCOOL KuaiLe', cursive !important;
+  font-weight: bold;
+  position: absolute;
+  top: 10px;
+  right: 300px;
+  z-index: 1000;
+}
+.about-box p {
+  font-size: 1.5rem;
+  font-family: 'ZCOOL KuaiLe', cursive !important;
+}
