@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>King Lin</title>
-    <link>http://localhost:1313/</link>
+    <link>https://l-aq976.github.io/</link>
     <description>Recent content on King Lin</description>
     <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Wed, 25 Oct 2023 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://l-aq976.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title></title>
-      <link>http://localhost:1313/about/</link>
+      <link>https://l-aq976.github.io/about/</link>
       <pubDate>Wed, 25 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/about/</guid>
+      <guid>https://l-aq976.github.io/about/</guid>
       <description>&lt;div class=&#34;about-box&#34;&gt;&#xD;&#xA;&lt;h2 class=&#34;box-title&#34;&gt; 自述&lt;/h2&gt;&#xD;&#xA;    &lt;p class=&#34;box-content&#34;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;作为一名智慧，理性，帅气（此处省略一万字）的计算机专业大学生，&lt;/p&gt;&#xD;&#xA;    &lt;p class=&#34;box-content&#34;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;我对于技术有着强烈的兴趣，想知道我的更多吗？那就去看看我的社交账号和github账号吧！。&lt;/p&gt;&#xD;&#xA;&lt;/div&gt; &#xD;&#xA;&lt;div class=&#34;about-box&#34;&gt;&#xD;&#xA; &lt;h2 class=&#34;box-title&#34;&gt; 爱好&lt;/h2&gt;&#xD;&#xA;    &lt;p class=&#34;box-content&#34; style=&#34;text-align: center;&#34;&gt;篮球，乒乓，羽毛球都会，但是都不强&lt;/p&gt;&#xD;&#xA;    &lt;p class=&#34;box-content&#34; style=&#34;text-align: center;&#34;&gt;数学爱好者&lt;/p&gt;&#xD;&#xA;    &lt;p class=&#34;box-content&#34; style=&#34;text-align: center;&#34;&gt;文学爱好者(喜欢看小说)&lt;/p&gt;&#xD;&#xA;&lt;/div&gt;&#xD;&#xA;&lt;div class=&#34;about-box&#34;&gt;&#xD;&#xA; &lt;h2 class=&#34;box-title&#34;&gt; 技能&lt;/h2&gt;&#xD;&#xA;    &lt;p class=&#34;box-content&#34; style=&#34;text-align: center;&#34;&gt;没啥技能，嘿嘿&lt;/p&gt;  &#xD;&#xA;&lt;/div&gt;&#xD;&#xA;&lt;div class=&#34;about-box&#34;&gt;&#xD;&#xA; &lt;h2 class=&#34;box-title&#34;&gt; 其他&lt;/h2&gt;&#xD;&#xA;    &lt;p class=&#34;box-content&#34; style=&#34;text-align: center;&#34;&gt;这只是一个简单的练手小网页，只是来熟悉一下html的啦&lt;/p&gt;  &#xD;&#xA;&lt;/div&gt;&#xD;&#xA;&lt;!-- 在合适位置添加 --&gt;&#xD;&#xA;&lt;div class=&#34;local-time&#34;&gt;当前时间: &lt;span id=&#34;current-time&#34;&gt;&lt;/span&gt;&lt;/div&gt;</description>
     </item>
     <item>
       <title></title>
-      <link>http://localhost:1313/contact/</link>
+      <link>https://l-aq976.github.io/contact/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/contact/</guid>
+      <guid>https://l-aq976.github.io/contact/</guid>
       <description></description>
     </item>
     <item>
       <title></title>
-      <link>http://localhost:1313/project/</link>
+      <link>https://l-aq976.github.io/project/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/project/</guid>
+      <guid>https://l-aq976.github.io/project/</guid>
       <description></description>
     </item>
   </channel>
