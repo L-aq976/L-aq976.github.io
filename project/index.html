@@ -131,74 +131,7 @@
       
   <div class="about-container">
      
-    <div class="quote-rotator">
-  <blockquote class="quote-container">
-    <p class="quote-text">加载中...</p>
-    <footer class="quote-source">— 系统</footer>
-  </blockquote>
-</div>
-
-<script>
-  const changetime=6000;
-document.addEventListener('DOMContentLoaded', function() {
-  let quotes = [];
-  let currentIndex = 0;
-
-  
-  fetch('/newquote.json')
-    .then(response => {
-      if (!response.ok) throw new Error('数据请求失败: ' + response.status);
-      return response.json();
-    })
-    .then(data => {
-      quotes = Array.isArray(data) ? data : [];
-      console.log('独立请求加载数据成功:', quotes);
-      if (quotes.length === 0) throw new Error('数据数组为空');
-      currentIndex = Math.floor(Math.random() * quotes.length);
-      displayQuote(currentIndex);
-    })
-    .catch(error => {
-      console.error('数据加载失败，使用默认数据:', error);
-      
-      quotes = [
-        { hitokoto: "学而不思则罔，思而不学则殆。", creator: "孔子" },
-        { hitokoto: "知之为知之，不知为不知，是知也。", creator: "孔子" }
-      ];
-      displayQuote(currentIndex);
-    });
-
-  
-  function displayQuote(index) {
-    const quoteTextElem = document.querySelector('.quote-text');
-    const quoteSourceElem = document.querySelector('.quote-source');
-
-    if (!quoteTextElem || !quoteSourceElem) {
-      console.error('无法找到DOM元素');
-      return;
-    }
-
-    if (!quotes[index]) {
-      console.error('未找到指定索引的名言数据');
-      quoteTextElem.textContent = "无内容";
-      quoteSourceElem.textContent = "— 未知作者";
-      return;
-    }
-
-    const quote = quotes[index];
-    quoteTextElem.textContent = quote.hitokoto || "无内容";
-    quoteSourceElem.textContent = `— ${quote.creator || quote.from || "未知作者"}`;
-  }
-
-  
-  function nextQuote() {
-    currentIndex = (currentIndex + 1) % quotes.length;
-    displayQuote(currentIndex);
-  }
-
-  
-  setInterval(nextQuote, changetime);
-});
-</script> 
+    
   </div>
    
   <script>
